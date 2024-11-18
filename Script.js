@@ -16,3 +16,12 @@ function AddTask(){
     }
     inputBox.value= "";
 }
+
+ListSection.addEventListener("click", function(e){
+    if(e.target.tagName === "li"){
+        e.target.classList.toggle("checked");
+    }
+    else if(e.target.tagName === "span"){
+        e.target.parentElement.remove();
+    }
+})
