@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body >
+    
+
+  <div id="" class="bg-gray-800 flex justify-center items-center h-screen w-screen" >
+
+    <div class=" bg-yellow-100 flex justify-center items-center h-60 w-[480px] rounded-lg mx-5">
+
+      <div class="" id="inyello">
+
+        <div class="">
+          <h2 class="text-2xl font-semibold flex justify-center">ToDo-List</h2>
+          <hr c>
+        </div>
+  
+        <div class="mt-8 flex justify-between ">
+
+          <input class=" sm:w-[350px] border-2 border-red-700 rounded-md px-8  " type="text" name="entry"
+          id="inputBox"
+          placeholder="Add your new ToDo...">
+
+          <button class="bg-sky-200 hover:bg-red-400 border rounded-md mx-2 px-4 py-2" onclick="AddTask()">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+            </svg>
+          </button>
+        </div>
+
+        <ul id="listSection" class="cursor-pointer ">
+          
+        </ul>
+
+      </div>
+
+    </div>
+      
+  </div>
+
+
+
+  <script src="Script.js"></script>
+</body>
+</html>
