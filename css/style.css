@@ -3,13 +3,19 @@
 @tailwind utilities;
 
 /* for the span that we create by using javaScrip*/
+
+UL LI{
+    margin: 10PX;
+}
+
 ul li span{
     font-size: xx-large;
     position: absolute;
     
     
     
-     right: ;
+    left: 57%;
+
     color: #555;
     line-height: 20px;
     text-align: center;
